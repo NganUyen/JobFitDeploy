@@ -49,18 +49,8 @@ export default function EmployerLayout({
       {children}
       <ChatWidget
         title="Trợ lý Nhà tuyển dụng"
-        subtitle="Xin chào nhà tuyển dụng! Tôi có thể giúp gì cho bạn?"
+        subtitle="Xin chào nhà tuyển dụng! Tôi có thể giúp gì cho bạn về tuyển dụng, quản lý ứng viên và tạo mô tả công việc?"
         inputPlaceholder="Nhập câu hỏi về tuyển dụng..."
-        role="employer"
-        customMessages={[
-          "Chào mừng đến với JobFit! 👋",
-          "Tôi là trợ lý ảo dành cho nhà tuyển dụng. Tôi có thể giúp bạn:",
-          "✅ Tạo và quản lý mô tả công việc",
-          "✅ Thiết lập quy trình tuyển dụng",
-          "✅ Phân tích CV và hồ sơ ứng viên",
-          "✅ Tìm kiếm ứng viên phù hợp",
-          "Hãy đặt câu hỏi và tôi sẽ hỗ trợ bạn!",
-        ]}
       />
     </>
   );
