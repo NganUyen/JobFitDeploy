@@ -1,0 +1,212 @@
+================================================================================
+                        MÔ TẢ DỰ ÁN JOBFIT.AI
+================================================================================
+
+TÊN DỰ ÁN: JobFit.AI - Nền Tảng Tìm Việc Thông Minh
+REPOSITORY: https://github.com/zok213/JobFit
+DEVELOPER: zok213
+NGÀY TẠO: 1 tháng 10, 2025
+
+================================================================================
+                            TỔNG QUAN DỰ ÁN
+================================================================================
+
+JobFit.AI là một nền tảng web ứng dụng trí tuệ nhân tạo (AI) để kết nối người 
+tìm việc với nhà tuyển dụng một cách thông minh và hiệu quả.
+
+SỨ MỆNH:
+Giúp mọi người tìm được công việc phù hợp thông qua công nghệ AI tiên tiến.
+
+CORE MISSION:
+To democratize access to career opportunities by using AI to match job seekers 
+with their ideal positions while providing employers with advanced candidate 
+screening and evaluation tools.
+
+================================================================================
+                            ĐỐI TƯỢNG SỬ DỤNG
+================================================================================
+
+NGƯỜI DÙNG CHÍNH:
+• Người tìm việc - Cá nhân đang tìm kiếm cơ hội nghề nghiệp
+• Nhà tuyển dụng - Công ty và HR tìm kiếm ứng viên phù hợp
+• Sinh viên & người mới tốt nghiệp
+• Người muốn chuyển đổi nghề nghiệp
+
+================================================================================
+                          TÍNH NĂNG CHÍNH
+================================================================================
+
+CHO NGƯỜI TÌM VIỆC:
+───────────────────
+
+🎯 Ghép Đôi Việc Làm Thông Minh
+   • Tải CV lên để nhận gợi ý việc làm phù hợp
+   • Lọc thông minh dựa trên kỹ năng và kinh nghiệm
+   • Tính điểm phù hợp theo thời gian thực
+   • Lưu việc yêu thích và theo dõi đơn ứng tuyển
+
+📄 Trợ Lý CV Thông Minh
+   • Phân tích và chấm điểm CV bằng AI
+   • Gợi ý cải thiện từng phần của CV
+   • Công cụ tạo CV chuyên nghiệp với nhiều mẫu
+   • Tối ưu hóa CV cho hệ thống ATS
+
+🗺️ Lộ Trình Nghề Nghiệp Cá Nhân Hóa
+   • Tạo lộ trình phát triển nghề nghiệp bằng AI
+   • Phân tích khoảng cách kỹ năng
+   • Gợi ý tài nguyên học tập (khóa học, chứng chỉ)
+   • Lập kế hoạch mục tiêu ngắn hạn và dài hạn
+
+💼 Luyện Tập Phỏng Vấn Nâng Cao
+   • Tạo câu hỏi phỏng vấn theo từng vị trí
+   • Phỏng vấn thử với AI và tương tác giọng nói
+   • Phản hồi và đánh giá theo thời gian thực
+   • Phân tích hiệu suất và cải thiện kỹ năng
+
+CHO NHÀ TUYỂN DỤNG:
+──────────────────
+
+🔍 Tìm Kiếm Ứng Viên Thông Minh
+   • Tìm kiếm và xếp hạng ứng viên bằng AI
+   • Lọc theo kỹ năng với độ chính xác cao
+   • Sàng lọc CV tự động
+   • Chấm điểm độ phù hợp của ứng viên
+
+📊 Bảng Điều Khiển Phân Tích
+   • Báo cáo hiệu quả tuyển dụng
+   • Phân tích chất lượng ứng viên
+   • Tối ưu hóa thời gian tuyển dụng
+   • Thống kê và xu hướng thị trường
+
+================================================================================
+                          CÔNG NGHỆ SỬ DỤNG
+================================================================================
+
+FRONTEND:
+• Next.js 14 với TypeScript
+• Tailwind CSS và Framer Motion
+• UI Components tùy chỉnh
+• Zustand cho quản lý state
+• Supabase cho xác thực người dùng
+
+BACKEND VÀ AI:
+• Next.js API routes
+• Supabase (PostgreSQL) cho cơ sở dữ liệu
+• Tích hợp nhiều dịch vụ AI:
+  - DeepSeek API: Tạo câu hỏi phỏng vấn
+  - OpenAI: Tạo văn bản và phân tích
+  - Jina AI: Tìm kiếm ngữ nghĩa
+  - LemonFox API: Xử lý giọng nói
+• Python FastAPI server (tùy chọn)
+
+================================================================================
+                          CẤU TRÚC DỰ ÁN
+================================================================================
+
+JobFit/
+├── Project/                    # Ứng dụng Next.js chính
+│   ├── app/                   # Các trang ứng dụng
+│   │   ├── dashboard/         # Bảng điều khiển người dùng
+│   │   ├── cv-assistant/      # Công cụ CV
+│   │   ├── job-match/         # Ghép đôi việc làm
+│   │   ├── interviewer/       # Luyện phỏng vấn
+│   │   ├── roadmap/          # Lộ trình nghề nghiệp
+│   │   └── employer/         # Cổng nhà tuyển dụng
+│   ├── components/            # Các thành phần React
+│   ├── lib/                   # Thư viện tiện ích
+│   └── config/               # File cấu hình
+├── Overview_Img/             # Ảnh chụp màn hình
+├── README.md                 # Tài liệu chính
+└── info.md                   # Tài liệu chi tiết
+
+================================================================================
+                          ƯU ĐIỂM NỔI BẬT
+================================================================================
+
+1. CÔNG NGHỆ AI TIÊN TIẾN
+   Tất cả tính năng đều được tăng cường bởi AI, mang lại trải nghiệm 
+   cá nhân hóa và tự động hóa thông minh.
+
+2. GIẢI PHÁP TOÀN DIỆN
+   Bao phủ toàn bộ quá trình tìm việc từ phát triển kỹ năng đến thành công 
+   trong phỏng vấn.
+
+3. TƯƠNG TÁC GIỌNG NÓI
+   Luyện phỏng vấn với AI thông qua giọng nói tự nhiên, mô phỏng phỏng vấn 
+   thực tế.
+
+4. CÁ NHÂN HÓA THÔNG MINH
+   Lộ trình nghề nghiệp và gợi ý được tạo bởi AI dựa trên hồ sơ cá nhân 
+   và xu hướng thị trường.
+
+================================================================================
+                          TÌNH TRẠNG PHÁT TRIỂN
+================================================================================
+
+GIAI ĐOẠN HIỆN TẠI: Đang phát triển tích cực
+KIỂM THỬ: Bộ test toàn diện với Jest
+TRIỂN KHAI: Sẵn sàng cho deployment cloud
+BẢO MẬT: Xác thực và bảo vệ dữ liệu tiêu chuẩn
+
+PHÁT TRIỂN GẦN ĐÂY:
+• Hệ thống phỏng vấn với giọng nói
+• Tích hợp AI đa dạng
+• Công cụ debug và phát triển
+• Tối ưu hóa hiệu suất
+
+KẾ HOẠCH TƯƠNG LAI:
+• Ứng dụng di động
+• Tính năng doanh nghiệp
+• Mở rộng thị trường quốc tế
+• Tích hợp thêm mô hình AI
+
+================================================================================
+                          YÊU CẦU KỸ THUẬT
+================================================================================
+
+MÔI TRƯỜNG PHÁT TRIỂN:
+• Node.js 18+
+• npm/yarn
+• Git
+• Trình duyệt web hiện đại
+
+DỊCH VỤ CẦN THIẾT:
+• Tài khoản Supabase (xác thực và database)
+• API keys cho các dịch vụ AI (DeepSeek, OpenAI, Jina AI)
+• Tùy chọn: Python environment cho AI processing
+
+================================================================================
+                          THÔNG TIN LIÊN HỆ
+================================================================================
+
+DEVELOPER: zok213
+REPOSITORY: https://github.com/zok213/JobFit
+LOẠI DỰ ÁN: Open Source / Commercial Platform
+CHUYÊN MÔN: AI, Machine Learning, Web Development
+
+TÀI LIỆU:
+• README.md: Hướng dẫn cài đặt và sử dụng
+• info.md: Tài liệu kỹ thuật chi tiết
+• TESTING.md: Hướng dẫn kiểm thử
+• Overview_Img/: Ảnh chụp màn hình nền tảng
+
+================================================================================
+                              KẾT LUẬN
+================================================================================
+
+JobFit.AI là một bước tiến quan trọng trong công nghệ nghề nghiệp, kết hợp 
+AI tiên tiến với thiết kế tập trung vào người dùng để tạo ra nền tảng toàn diện 
+phục vụ nhu cầu của cả người tìm việc và nhà tuyển dụng.
+
+Với sự kết hợp độc đáo giữa ghép đôi việc làm thông minh, hướng dẫn nghề nghiệp 
+cá nhân hóa, luyện phỏng vấn với giọng nói và phân tích toàn diện, JobFit.AI 
+định vị mình như một giải pháp chuyển đổi trong thị trường tìm việc và tuyển dụng.
+
+Với nền tảng kỹ thuật vững chắc, tích hợp AI sâu rộng và tập trung vào trải nghiệm 
+người dùng, JobFit.AI sẵn sàng tạo ra tác động đáng kể trong việc giúp các cá nhân 
+tìm được cơ hội nghề nghiệp ý nghĩa và hỗ trợ nhà tuyển dụng xác định và thu hút 
+nhân tài hàng đầu.
+
+================================================================================
+                              KẾT THÚC TÀI LIỆU
+================================================================================
