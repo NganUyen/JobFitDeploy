@@ -14,7 +14,7 @@ export const TeamSection = () => {
       name: "Huỳnh Ngọc Hân",
       role: "Project Manager",
       bio: "Experienced project manager with expertise in leading cross-functional teams and delivering complex software projects on time and within budget.",
-      image: "/img/team/huynhngochan.jpg",
+      image: "", // Image removed - will show initials instead
       initials: "HNH",
       social: {
         linkedin: "#",
@@ -26,7 +26,7 @@ export const TeamSection = () => {
       name: "Nguyễn Bắc Bảo Khang",
       role: "Game Developer",
       bio: "Creative game developer with a passion for building immersive experiences and a strong background in Unity and game mechanics.",
-      image: "/img/team/nguyenbacbaokhang.jpg",
+      image: "", // Image removed - will show initials instead
       initials: "NBBK",
       social: {
         linkedin: "#",
@@ -37,7 +37,7 @@ export const TeamSection = () => {
       name: "Nguyễn Xuân Việt",
       role: "AI/ML Engineer",
       bio: "Machine learning expert focused on natural language processing and neural networks with experience implementing AI solutions at scale.",
-      image: "/img/team/nguyenxuanviet.jpg",
+      image: "", // Image removed - will show initials instead
       initials: "NXV",
       social: {
         linkedin: "#",
@@ -49,7 +49,7 @@ export const TeamSection = () => {
       name: "Nguyễn Lê Khánh An",
       role: "Tech Lead",
       bio: "Passionate tech lead with a strong background in software architecture and team leadership, specializing in React and Node.js applications.",
-      image: "/img/team/nguyenlekhanhan.jpg",
+      image: "", // Image removed - will show initials instead
       initials: "NLKA",
       social: {
         linkedin: "#",
@@ -60,7 +60,7 @@ export const TeamSection = () => {
       name: "Mai Phước Minh Tài",
       role: "MLOps Engineer",
       bio: "Skilled MLOps engineer with experience building and deploying machine learning pipelines and infrastructure at scale.",
-      image: "/img/team/maiphuocminhtai.jpg",
+      image: "", // Image removed - will show initials instead
       initials: "MPMT",
       social: {
         linkedin: "#",
